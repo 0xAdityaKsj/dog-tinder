@@ -21,6 +21,10 @@ const dogData = [
         bio: "How you doin?",
         hasBeenSwiped: false,
         hasBeenLiked: false
+    },
+    {
+        name: 'rocky',
+        avatar: ""
     }
 ]
 

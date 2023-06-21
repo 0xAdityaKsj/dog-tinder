@@ -46,14 +46,14 @@ header {
 
 .name {
     font-size: 2rem;
-    bottom: 45px;
+    bottom: 70px;
     left: 16px;
     font-weight: 600;
 }
 
 .bio {
     font-size: 1.5rem;
-    bottom: 15px;
+    bottom: 20px;
     left: 16px;
     font-weight: 400;
 }
@@ -64,8 +64,20 @@ footer {
     margin-bottom: 1.6em;
 }
 
-footer img {
+footer button {
     padding: 1em;
+    border: none;
     border-radius: 50px;
     background: linear-gradient(180deg, #fbfbfb 0%, #dbdde5 100%);
+}
+
+#like-badge,
+#nope-badge {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 172.32px;
+    height: 89.97px;
+    transform: rotate(-45deg);
+    display: none;
 }
